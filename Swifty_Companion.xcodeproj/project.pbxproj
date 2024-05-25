@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		177584BA2BFC46CB0011B524 /* Swifty_CompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177584B92BFC46CB0011B524 /* Swifty_CompanionApp.swift */; };
-		177584BC2BFC46CB0011B524 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177584BB2BFC46CB0011B524 /* ContentView.swift */; };
 		177584BE2BFC46CD0011B524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177584BD2BFC46CD0011B524 /* Assets.xcassets */; };
 		177584C22BFC46CD0011B524 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177584C12BFC46CD0011B524 /* Preview Assets.xcassets */; };
+		1782F9212C02914E00F76550 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1782F9202C02914E00F76550 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		177584B62BFC46CB0011B524 /* Swifty_Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifty_Companion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		177584B92BFC46CB0011B524 /* Swifty_CompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty_CompanionApp.swift; sourceTree = "<group>"; };
-		177584BB2BFC46CB0011B524 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		177584BD2BFC46CD0011B524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		177584BF2BFC46CD0011B524 /* Swifty_Companion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swifty_Companion.entitlements; sourceTree = "<group>"; };
 		177584C12BFC46CD0011B524 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1782F9202C02914E00F76550 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				177584B92BFC46CB0011B524 /* Swifty_CompanionApp.swift */,
-				177584BB2BFC46CB0011B524 /* ContentView.swift */,
+				1782F9202C02914E00F76550 /* LoginView.swift */,
 				177584BD2BFC46CD0011B524 /* Assets.xcassets */,
 				177584BF2BFC46CD0011B524 /* Swifty_Companion.entitlements */,
 				177584C02BFC46CD0011B524 /* Preview Content */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				177584BC2BFC46CB0011B524 /* ContentView.swift in Sources */,
+				1782F9212C02914E00F76550 /* LoginView.swift in Sources */,
 				177584BA2BFC46CB0011B524 /* Swifty_CompanionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
